@@ -1,0 +1,1 @@
+This is a text explaining how to access the database from python
