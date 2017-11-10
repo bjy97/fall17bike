@@ -1,6 +1,7 @@
 This Database is used to store biking data and prediction data generated from Zev's model.
 To Access the database, follow the following steps:
 1. Go to google console at https://console.cloud.google.com 
+2. Go to compute engine
 2. Start the virtual machine instance and open a terminal by clicking on the drop down button on the right side of the instance line
 3. type the command 
 '''
