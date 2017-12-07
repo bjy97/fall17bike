@@ -21,11 +21,11 @@ sudo service postgresql restart
 ```
 
 ## Access the database:
-6. Type the command
+1. Type the command
 ```
 sudo -u postgres psql postgres
 ```
-5. Now you are connected to the database and can see all the tables by typing the command
+2. Now you are connected to the database and can see all the tables by typing the command
 ```
 \d
 ```
