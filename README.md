@@ -1,9 +1,27 @@
+# Compare Biking data and Zev's model
 This Database is used to store biking data and prediction data generated from Zev's model.
-To Access the database, follow the following steps:
+## Start the virtual machine:
 1. Go to google console at https://console.cloud.google.com
 2. Select the instance `hackplayground` by checking the box on the left and then start the engine by clicking start on top of the page.
 3. Open a terminal by clicking on the drop down button on the right side of the instance line, select `open in browser window`
-3. type the command 
+
+If you don't need to run the application but only needs to look at the database itself, you don't have to do the configuration, skip to "Access the database" section
+## Configuration: 
+1. Type the command 
+```
+sudo vim ../../etc/postgresql/9.5/main/pg_hba.conf
+```
+2.Now you have open up the file pg_hba.conf. Scroll down the document until you see '/32'. Replace the string before the '/' by your IP address found at http://ip4.me/ 
+  Note: press "i" to switch to insert mode and after you paste the IP address to the appropriate place, press "esc" to quit the insert mode.
+  Press ":x" to quit the document and back to terminal
+
+3. Type the command
+```
+sudo service postgresql restart
+```
+
+## Access the database:
+6. Type the command
 ```
 sudo -u postgres psql postgres
 ```
