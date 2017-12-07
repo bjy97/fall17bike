@@ -29,3 +29,10 @@ sudo -u postgres psql postgres
 ```
 \d
 ```
+
+## Run the application:
+1. In your local terminal, type in the command
+```
+python air.py
+```
+2. Copy the IP address appearing below your command line one or two seconds later, paste it in your browser. It should be something like 'http://0.0.0.0:8111/'
