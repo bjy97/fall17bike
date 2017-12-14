@@ -1,7 +1,7 @@
 # Compare Biking data and Zev's model
 This Database is used to store biking data and prediction data generated from Zev's model.
 ## Start the virtual machine:
-1. Go to google console at https://console.cloud.google.com
+1. Go to google console at https://console.cloud.google.com, choose My First Project
 2. Select the instance `hackplayground` by checking the box on the left and then start the engine by clicking start on top of the page.
 3. Open a terminal by clicking on the drop down button on the right side of the instance line, select `open in browser window`
 
